@@ -1,104 +1,104 @@
-# E-Commerce App
-# Overview
-- A Flutter-based E-Commerce app offering a complete shopping experience with features like user authentication, product browsing, cart management, and favorites. The app follows the MVVM pattern, uses BLoC and Cubit for state management, and integrates clean - 
--  architecture for scalability and maintainability.
+# E-Commerce Application
 
-# Features
+The **E-Commerce Application** is a Flutter-based app designed to offer a seamless shopping experience. It features user authentication, product browsing, cart management, and more, utilizing the MVVM pattern, BLoC/Cubit for state management, and Clean Architecture for scalability and maintainability.
 
- 1- Authentication
-- Login and Register: User authentication with email and password via API.
-- Auto-Login: Automatically log in users based on saved credentials for a seamless experience.
+---
 
-2- API Integration
+## Features
 
-- Fetch product listings, user profiles, and handle cart operations through a RESTful API.
+### General Features
+- **Authentication**:
+  - Login and register with email and password via API.
+  - Auto-login for a seamless user experience.
+- **Favorites Page**: Create a personal wishlist by adding/removing products.
+- **Search Functionality**: Search for products via API search queries.
+- **Cart Management**: Add items, modify quantities, and remove items from the cart.
+- **Profile Page**: Manage and update personal information and preferences.
+- **Image Slideshow**: View product images in a slideshow.
+- **Item View Page**: Detailed view of individual items, including product specifications, pricing, and availability.
+- **Item Selection Page**: Choose product variations (size, color, etc.) before adding to the cart.
+- **State Management**: Utilizes BLoC and Cubit for efficient state handling.
+- **Clean Architecture**: Ensures separation of concerns for maintainability and scalability.
+- **Shared Preferences**: Stores persistent data such as login status and favorites.
+- **Dio Package**: Robust API communication using the Dio package.
 
-3- Favorites Page
+---
 
-- Add and remove products from the favorites list, allowing users to create a personal wishlist.
+## Technologies Used
 
-4- Search Functionality
+- **Flutter**: Cross-platform framework for app development.
+- **Dio**: For making HTTP requests to the backend API.
+- **SharedPreferences**: Persistent local data storage.
+- **MVVM Pattern**: Structured codebase by separating UI from business logic.
+- **BLoC and Cubit**: Efficient state management across the app.
 
-5- Search for products within the app, powered by API search queries.
+### Key Dependencies
+- **Dio**: HTTP requests.
+- **SharedPreferences**: Local storage.
+- **Image Slideshow**: To display product images.
 
-6- Cart Management
+---
 
-- Add items to the cart, modify quantities, and delete items directly from the cart.
+## Getting Started
 
-7- Profile Page
+### Prerequisites
 
-- Users can manage and update their personal information and preferences.
+Ensure the following are installed:
 
-8- Image Slideshow
+- [Flutter](https://flutter.dev/docs/get-started/install) (version 3.0 or later)
+- [Dart](https://dart.dev/get-dart)
+- RESTful API for backend operations.
 
-9- View product images in a slideshow on the product details page.
+### Installation
 
-10- Item View Page
-- A detailed view of individual items, including product specifications, pricing, and availability.
-Item Selection Page
+1. **Clone the Repository**
+```bash
+git clone https://github.com/NaderEmad9/E-Commerce-App.git
+```
 
-11- Choose product variations like size, color, or other options before adding to the cart.
-State Management
+2.	**Navigate to the Project Directory**
+```bash
+cd E-Commerce-App
+```
 
-12- Utilizes BLoC and Cubit for efficient state management across the app.
-MVVM Pattern
+3.	**Install Dependencies**
+   
+Run the following command to fetch the required packages:
 
-13- The app follows the MVVM (Model-View-ViewModel) design pattern, ensuring a clear separation of logic and UI, making the codebase more maintainable.
-Clean Architecture
-
-14 - Implements Clean Architecture, ensuring the separation of concerns and promoting scalability.
-Shared Preferences
-
-15 - Uses SharedPreferences to store and persist user data like login status and favorites list.
-16- Dio Package
-
-17- Handles API requests using the Dio package for robust communication with the backend.
-
-
-#Installation
-- Clone the repository:
-
-- git clone https://github.com/yourusername/ecommerce-app.git
-Install dependencies:
-
-
+```bash
 flutter pub get
-Run the app:
+```
 
-- flutter run
-# Technologies Used
-- Flutter: For building the cross-platform app.
-- BLoC and Cubit: For state management.
-- MVVM Pattern: Ensures a structured codebase by separating UI from business logic.
-- Dio: For making HTTP requests to the backend API.
-- SharedPreferences: For storing persistent local data.
-- Image Slideshow: To display product images
+4.	**Run the Application**
+Use the following command to run the app on your preferred device:
+```bash
+flutter run
+```
 
+---
 
-# ScreenShots
+## Screenshots
 
 <p align="center">
-  <img src="https://github.com/oso020/E-COMMESCE-ROUTE/blob/master/screen%20shots/spalsh.png" alt="Sign Up" width="220" style="margin: 10px;"/>
-  <img src="https://github.com/oso020/E-COMMESCE-ROUTE/blob/master/screen%20shots/login.png" alt="Sign In" width="220" style="margin: 10px;"/>
-     <img src="https://github.com/oso020/E-COMMESCE-ROUTE/blob/master/screen%20shots/register.png" alt="Validator dark" width="220" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/spalsh.png" alt="Splash Screen" width="220" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/login.png" alt="Login Screen" width="220" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/register.png" alt="Register Screen" width="220" style="margin: 10px;"/>
 </p>
 
 <p align="center">
-     <img src="https://github.com/oso020/E-COMMESCE-ROUTE/blob/master/screen%20shots/home.png" alt="Task" width="220" style="margin: 10px;"/>
-  <img src="https://github.com/oso020/E-COMMESCE-ROUTE/blob/master/screen%20shots/products.png" alt="Task Add" width="220" style="margin: 10px;"/>
-  <img src="https://github.com/oso020/E-COMMESCE-ROUTE/blob/master/screen%20shots/products%20detailes.png" alt="Task Delete" width="220" style="margin: 10px;"/>
-
+  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/home.png" alt="Home Screen" width="220" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/products.png" alt="Products" width="220" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/products%20detailes.png" alt="Product Details" width="220" style="margin: 10px;"/>
 </p>
 
 <p align="center">
-       <img src="https://github.com/oso020/E-COMMESCE-ROUTE/blob/master/screen%20shots/cart.png" alt="Edit Task" width="220" style="margin: 10px;"/>
-  <img src="https://github.com/oso020/E-COMMESCE-ROUTE/blob/master/screen%20shots/favorite%20page.png" alt="Done Task" width="220" style="margin: 10px;"/>
-    <img src="https://github.com/oso020/E-COMMESCE-ROUTE/blob/master/screen%20shots/profile%20page.png" alt="Dialog Dark" width="220" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/cart.png" alt="Cart" width="220" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/favorite%20page.png" alt="Favorites Page" width="220" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/profile%20page.png" alt="Profile Page" width="220" style="margin: 10px;"/>
 </p>
 
+---
 
-=
-# License
-- This project is licensed under the MIT License - see the LICENSE file for details.
+## License
 
-- This updated README.md now includes the new features: item view page, item selection page, and auto-login with MVVM.
+This project is licensed under the MIT License - see the LICENSE file for details.
