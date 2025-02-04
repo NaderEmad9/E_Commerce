@@ -62,7 +62,7 @@ cd E-Commerce-App
 ```
 
 3.	**Install Dependencies**
-   
+
 Run the following command to fetch the required packages:
 
 ```bash
@@ -70,7 +70,8 @@ flutter pub get
 ```
 
 4.	**Run the Application**
-Use the following command to run the app on your preferred device:
+   
+   Use the following command to run the app on your preferred device:
 ```bash
 flutter run
 ```
