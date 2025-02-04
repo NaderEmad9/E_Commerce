@@ -80,7 +80,7 @@ flutter run
 ## Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/spalsh.png" alt="Splash Screen" width="220" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/splash.png" alt="Splash Screen" width="220" style="margin: 10px;"/>
   <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/login.png" alt="Login Screen" width="220" style="margin: 10px;"/>
   <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/register.png" alt="Register Screen" width="220" style="margin: 10px;"/>
 </p>
@@ -88,7 +88,7 @@ flutter run
 <p align="center">
   <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/home.png" alt="Home Screen" width="220" style="margin: 10px;"/>
   <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/products.png" alt="Products" width="220" style="margin: 10px;"/>
-  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/products%20detailes.png" alt="Product Details" width="220" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/NaderEmad9/E_Commerce/main/screenshots/products%20details.png" alt="Product Details" width="220" style="margin: 10px;"/>
 </p>
 
 <p align="center">
