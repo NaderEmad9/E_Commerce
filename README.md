@@ -214,31 +214,13 @@ flutter run
 
 ## 🧪 Testing
 
-Run the tests with the following command:
+This project ships without a test suite — it was built to demonstrate the architecture
+described above. My tested production work is the procurement platform: 118 test cases
+run by GitHub Actions on every push, alongside `flutter analyze`.
 
 ```bash
-flutter test
+flutter analyze
 ```
-
-| Test Type | Status |
-|-----------|--------|
-| Unit Tests | 🔄 In Progress |
-| Widget Tests | 🔄 In Progress |
-| Integration Tests | 📋 Planned |
-
-### Running Specific Tests
-
-```bash
-# Run all tests
-flutter test
-
-# Run tests with coverage
-flutter test --coverage
-
-# Run specific test file
-flutter test test/widget_test.dart
-```
-
 ---
 
 ## 🤝 Contributing
